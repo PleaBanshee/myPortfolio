@@ -25,7 +25,7 @@ const About = () => {
                 <Col xs={12} md = {6}>
                         <Row className=" align-items-start p-2 my-details rounded">
                             Hello ! my name is <strong>&nbsp;Jumanah Al-Hazba</strong>
-                            <br /> 
+                            <hr /> 
                             I am a third year Bachelor of Science Information Technology student at the North West
                             University. Seeking opportunities to gain experience to expand my knowledge in the
                             working environment . I am a hard worker, a quick study and can work under pressure.
@@ -35,7 +35,7 @@ const About = () => {
                             <br />
                             My goal is always driven towards providing an amazing experience with the best level of quality and service to clients.
                             <br />
-                            Furthermore, as a Demi (Teachers assistant) for Python and Data Analytics I gained more experience in helping to support others.
+                            Furthermore, as a Demi (Teachers assistant) for C# and Data Analytics I gained more experience in helping to support others.
                             <br /> <br />
                     </Row>
 
