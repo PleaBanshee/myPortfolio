@@ -16,7 +16,7 @@ const Skills = () => {
                 <h1 className="text-center font-details-b pb-4">TECH SKILLS</h1>  
                 <CardDeck>
                 <Row className="d-flex justify-content-around">
-                    {/*Frontend*/}
+                    {/*Frontend add console.log*/}
                 <Col md={0}>
                 <Card className="focus mt-2 mb-2">
                 <Card.Body>

@@ -7,7 +7,7 @@ import MyNavbar from "./components/my-navbar/mynavbar.component";
 import MyCarousal from "./components/my-carousal/my-carousal.component";
 import TitleMessage from "./components/title-message/title-message.component"
 import About from "./pages/about/about.component";
-
+import ProjectTimeline from "./components/projects-timeline/projects-timeline.components"
 import Skills from "./pages/skills/skills.component"
 import Experience from './pages/experience/experience.component';
 
@@ -43,6 +43,15 @@ const App = () => {
                <Experience/>
             </Fade>
             </Container>
+
+            <div>
+              <Container className="container-box rounded">
+              <Fade duration={500}>
+              <ProjectTimeline/>
+              </Fade>
+              </Container>
+            </div>
+
       
         
       </div>
