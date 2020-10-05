@@ -10,6 +10,8 @@ import About from "./pages/about/about.component";
 import ProjectTimeline from "./components/projects-timeline/projects-timeline.components"
 import Skills from "./pages/skills/skills.component"
 import Experience from './pages/experience/experience.component';
+import Contact from './pages/contact-form/contact-form.component'
+import FooterPanel from "./components/footer/footer.component";
 
 
 import './App.css';
@@ -52,7 +54,16 @@ const App = () => {
               </Container>
             </div>
 
-      
+            <div>
+              <Container className="container-box rounded">
+                <Fade duration={500}>
+                  <Contact />
+                </Fade>
+              </Container>
+            </div>
+
+      <hr />
+      <FooterPanel />
         
       </div>
   );
