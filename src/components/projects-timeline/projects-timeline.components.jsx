@@ -4,13 +4,9 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 //logos
 import L_NastockLogo from "../../assets/img/projects/nastockLogo.png";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
 import L_SPACE from "../../assets/img/projects/Seikan.png";
 import L_JUM from "../../assets/img/projects/JUM.png";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+
 
 
 //skills
@@ -20,15 +16,8 @@ import L_ACCESS from "../../assets/img/skills/Access.svg";
 import L_SQL from "../../assets/img/skills/mysql.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 
 import "./projects-timeline.style.css";

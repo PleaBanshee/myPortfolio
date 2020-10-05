@@ -29,10 +29,10 @@ const About = () => {
                             I am a third year Bachelor of Science Information Technology student at the North West
                             University. Seeking opportunities to gain experience to expand my knowledge in the
                             working environment . I am a hard worker, a quick study and can work under pressure.
-                            <br />
+                            <hr />
                             Some of my relevant skills with formal education include Artificial intelligence, Networking, Systems Analysis and Design,Data analytics and Statistics 
                             and Business Management and Accounting 
-                            <br />
+                            <hr />
                             My goal is always driven towards providing an amazing experience with the best level of quality and service to clients.
                             <br />
                             Furthermore, as a Demi (Teachers assistant) for C# and Data Analytics I gained more experience in helping to support others.

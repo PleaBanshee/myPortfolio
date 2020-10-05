@@ -22,10 +22,53 @@ const Skills = () => {
                 <Card.Body>
                     <Card.Title className="text-center  card-title">Frontend</Card.Title>
                     <hr />
-                    {/*add card title and change md = 4*/}
+                    
+                    {/*add card text and change md = 4*/}
+                    HTML 5, CSS3, Javascript, Bootstrap, React
+
+                    
                 </Card.Body>
                 </Card>
                 </Col>
+
+                <Col md={0}>
+                <Card className="focus mt-2 mb-2">
+                    <Card.Body>
+                    <Card.Title className="text-center  card-title">Backend & Databases </Card.Title>
+                    <hr />
+                    {/*add card text and change md = 4*/}
+                    Node.js, .Net, MS Access,Oracle, MySQL 
+
+                </Card.Body>
+                </Card>
+                </Col>
+
+                <Col md={0}>
+                <Card className="focus mt-2 mb-2">
+                <Card.Body>
+                    <Card.Title className="text-center  card-title">Programing Languages </Card.Title>
+                    <hr />
+                    {/*add card text and change md = 4*/}
+                        C#, C++, Java, Javascript & Python
+
+                </Card.Body>
+                    </Card>
+                    </Col>
+
+                <Col md={0}>
+                <Card className="focus mt-2 mb-2">
+                    <Card.Body>
+                        <Card.Title className="text-center  card-title"> Other </Card.Title>
+                        <hr />
+                        {/*add card text and change md = 4*/}
+                        Cisco Packet Tracer, Git Kraken, Git, IBM Dash Board
+                    
+
+                </Card.Body>
+                    </Card>
+                    </Col>
+
+
                 </Row>
                
                 </CardDeck>
