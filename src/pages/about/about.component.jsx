@@ -32,7 +32,7 @@ const About = () => {
                             <hr />
                             Some of my relevant skills with formal education include Artificial intelligence, Networking, Systems Analysis and Design,Data analytics and Statistics 
                             and Business Management and Accounting 
-                            <hr />
+                            <br />
                             My goal is always driven towards providing an amazing experience with the best level of quality and service to clients.
                             <br />
                             Furthermore, as a Demi (Teachers assistant) for C# and Data Analytics I gained more experience in helping to support others.

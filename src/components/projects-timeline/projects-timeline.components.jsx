@@ -6,6 +6,7 @@ import Card from "react-bootstrap/Card";
 import L_NastockLogo from "../../assets/img/projects/nastockLogo.png";
 import L_SPACE from "../../assets/img/projects/Seikan.png";
 import L_JUM from "../../assets/img/projects/JUM.png";
+import L_POKE from "../../assets/img/projects/pokes.jpeg"
 
 
 
@@ -81,7 +82,7 @@ const ProjectTimeline = () => {
                             </div>
                         </div>
                     </ImageEvent>
-                     {/* Project: Smart Brain */}
+                     {/* Project: Space */}
           <ImageEvent date="21/05/2019" className="text-center" text="Intersteller Nebula Trading" src={L_SPACE} alt="Space">
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -186,6 +187,41 @@ const ProjectTimeline = () => {
                                 <UrlButton href="https://github.com/jumphoto/myPortfolio" target="_blank">
                                     SOURCE CODE
                 </UrlButton>
+                            </div>
+                        </div>
+                    </ImageEvent>
+
+                    <ImageEvent date="06/10/2020" className="text-center" text="Pokemon" src={L_POKE} alt="poke">
+                        <div className="d-flex justify-content-between flex-column mt-1">
+                            <div>
+                                <Accordion>
+                                    <Card>
+                                        <Accordion.Toggle as={Card.Header} eventKey="0" className="p-2 text-center accordian-main">
+                                            PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                                        <Accordion.Collapse eventKey="0" className="text-left">
+                                            <Card.Body>
+                                                <strong>Description:</strong> Using an API to call data from a server 
+                        <hr />
+                                                <strong>Features:</strong>
+                                                <ul className="list-styles pt-1">
+                                                    <li>Uses Pokemon API to retrive any information about any pokemon</li>
+                                                    <li>See below the names of my favourite Pokemon</li>
+                                                </ul>
+                                                
+                                               
+                                            </Card.Body>
+                                        </Accordion.Collapse>
+                                    </Card>
+                                </Accordion>
+                            </div>
+                            <div className="d-flex justify-content-between flex-nowrap text-center">
+
+                                <UrlButton href="https://pokeapi.co/" target="_blank">
+                                    SOURCE CODE
+                </UrlButton>
+
                             </div>
                         </div>
                     </ImageEvent>
